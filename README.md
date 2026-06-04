@@ -13,19 +13,6 @@ A lightweight browser tool for randomly pairing Job Search Council group members
 - Displays each member's photo alongside their name (falls back to initials if no photo is provided)
 - Shows a shared links reference table from a Markdown file
 
-## Project structure
-
-```
-├── index.html
-├── app.js
-├── styles.css
-└── assets/
-    ├── images/         # Member photos (optional)
-    └── docs/
-        ├── members.md  # List of member names — edit this
-        └── links.md    # Member links table — edit this
-```
-
 ## Setup
 
 1. Clone this repo to your GitHub account
@@ -36,6 +23,21 @@ A lightweight browser tool for randomly pairing Job Search Council group members
 6. Commit and push — GitHub Pages will rebuild automatically and your site will be live at `https://<your-username>.github.io/<repo-name>/`
 
 > **Note:** The app uses `fetch()` to load member and links data, so it must be served over HTTP — it will not work if you open `index.html` directly as a local file. GitHub Pages handles this for you.
+
+## Project structure
+
+```
+├── index.html
+├── app.js
+├── styles.css
+└── assets/
+    ├── images/
+    │   ├── members/    # Member photos (optional)
+    │   └── public/     # Public assets (e.g. screenshot)
+    └── docs/
+        ├── members.md  # List of member names — edit this
+        └── links.md    # Member links table — edit this
+```
 
 ## Adding or updating members
 
