@@ -1,9 +1,10 @@
 # JSC  Pair Generator
 
+A lightweight browser tool for randomly pairing Job Search Council group members for sessions. Click the chips to select or deselect members, hit the button, and get your pairs.
+
 ![Screenshot of JSC Pair Generator](assets/images/public/screenshot.png)
 
-
-A lightweight browser tool for randomly pairing Job Search Council group members for sessions. Click the chips to select or deselect members, hit the button, and get your pairs — no setup required.
+➡️ [View Demonstration](https://datatimp.github.io/jsc-pair-generator)
 
 ## What it does
 
