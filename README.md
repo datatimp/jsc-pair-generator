@@ -1,4 +1,10 @@
-# Pair Generator
+# JSC  Pair Generator
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/datatimp/jsc-pair-generator/main/assets/images/public/screenshot.png" width="600" alt="JSC Pair Generator Screenshot" />
+</a>
+</div>
+
 
 A lightweight browser tool for randomly pairing Job Search Council group members for sessions. Click the chips to select or deselect members, hit the button, and get your pairs — no setup required.
 
@@ -28,7 +34,7 @@ A lightweight browser tool for randomly pairing Job Search Council group members
 2. Enable GitHub Pages: go to your repo's **Settings → Pages**, set source to the `main` branch and `/ (root)`, and save
 3. Edit `assets/docs/members.md` with your group's names
 4. Edit `assets/docs/links.md` with your group's links
-5. Optionally add member photos to `assets/images/` (see below)
+5. Optionally add member photos to `assets/images/members/` (see below)
 6. Commit and push — GitHub Pages will rebuild automatically and your site will be live at `https://<your-username>.github.io/<repo-name>/`
 
 > **Note:** The app uses `fetch()` to load member and links data, so it must be served over HTTP — it will not work if you open `index.html` directly as a local file. GitHub Pages handles this for you.
@@ -47,11 +53,11 @@ Edit [`assets/docs/members.md`](assets/docs/members.md) — one name per line as
 
 ## Adding photos
 
-Drop a photo named after the member (lowercase) into `assets/images/`. Both `.jpg` and `.png` are supported:
+Drop a photo named after the member (lowercase) into `assets/images/members/`. Both `.jpg` and `.png` are supported:
 
 ```
-assets/images/alice.jpg
-assets/images/bob.png
+assets/images/members/alice.jpg
+assets/images/members/bob.png
 ```
 
 Members without a photo will show their initial instead.

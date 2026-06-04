@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const lower = name.toLowerCase();
         const initial = name.charAt(0).toUpperCase();
         const sizeStyle = size ? `style="${size}"` : '';
-        return `<img src="assets/images/${lower}.jpg" ${sizeStyle}
-                     onerror="this.onerror=null;this.src='assets/images/${lower}.png';this.onerror=function(){this.style.display='none';this.parentElement.textContent='${initial}';};"
+        return `<img src="assets/images/members/${lower}.jpg" ${sizeStyle}
+                     onerror="this.onerror=null;this.src='assets/images/members/${lower}.png';this.onerror=function(){this.style.display='none';this.parentElement.textContent='${initial}';};"
                      alt="${name}">`;
     }
 
