@@ -76,4 +76,4 @@ The table is sorted alphabetically by name on load.
 
 ## Misc.
 
-This tool was written to be used by Jon Search Councils, an accountability job-search group set-up under the [Never Search Alone](https://www.neversearchalone.org) non-profit organization. Visit Never Search Alone for more information or if you would like to join a JSC.
+This tool was written to be used by Job Search Councils, an accountability job-search group set-up under the [Never Search Alone](https://www.neversearchalone.org) non-profit organization. Visit Never Search Alone for more information or if you would like to join a JSC.
