@@ -15,8 +15,8 @@ A lightweight browser tool for randomly pairing Job Search Council group members
 
 ## Setup
 
-1. Clone this repo to your GitHub account
-2. Enable GitHub Pages: go to your repo's **Settings → Pages**, set source to the `main` branch and `/ (root)`, and save
+1. Click **Use this template → Create a new repository** (green button at the top of this page) to create your own copy
+2. Enable GitHub Pages: go to your new repo's **Settings → Pages**, set source to the `main` branch and `/ (root)`, and save
 3. Edit `assets/docs/members.md` with your group's names
 4. Edit `assets/docs/links.md` with your group's links
 5. Optionally add member photos to `assets/images/members/` (see below)
